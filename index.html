@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--=============== REMIXICONS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+
+        <!-- Icon title bar -->
+        <link rel="icon" href="assets/img/Logo Labschool.jpg" type="image/x-icon">
+
+        <title>SD Labschool UPI Purwakarta</title>
+    </head>
+    <body oncontextmenu='return false' class='snippet-body'>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="logocontainer">
+                <div class="logo_image">
+                    <img src="assets/img/Logo Labschool.JPG">
+                </div>
+                </div>
+                <a href="#" class="nav__logo" style="text-decoration:none">SD Labschool UPI Purwakarta</a>
+
+                <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link" style="text-decoration:none">Profile</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#courses" class="nav__link" style="text-decoration:none">Kegiatan</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link" style="text-decoration:none">Program</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#prestasi" class="nav__link" style="text-decoration:none">Prestasi</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Fasilitas" class="nav__link" style="text-decoration:none">Fasilitas</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link" style="text-decoration:none">Kontak</a>
+                    </li>
+
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+                </div>
+
+                <div class="nav__actions">
+                <!-- Search button -->
+                <i class="ri-search-line nav__search" id="search-btn"></i>
+
+                <!-- Login button -->
+                <i class="ri-user-line nav__login" id="login-btn"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== SEARCH ====================-->
+        <div class="search" id="search">
+            <form action="" class="search__form">
+                <i class="ri-search-line search__icon"></i>
+                <input type="search" placeholder="What are you looking for?" class="search__input">
+            </form>
+
+            <i class="ri-close-line search__close" id="search-close"></i>
+        </div>
+
+        <!--==================== LOGIN ====================-->
+        <div class="login" id="login">
+            <form action="" class="login__form">
+                <h2 class="login__title">Log In</h2>
+                
+                <div class="login__group">
+                <div>
+                    <label for="email" class="login__label">Email</label>
+                    <input type="email" placeholder="Write your email" id="email" class="login__input">
+                </div>
+                
+                <div>
+                    <label for="password" class="login__label">Password</label>
+                    <input type="password" placeholder="Enter your password" id="password" class="login__input">
+                </div>
+                </div>
+
+                <div>
+                <p class="login__signup">
+                    You do not have an account? <a href="#">Sign up</a>
+                </p>
+
+                <a href="#" class="login__forgot">
+                    You forgot your password
+                </a>
+
+                <button type="submit" class="login__button">Log In</button>
+                </div>
+            </form>
+
+            <i class="ri-close-line login__close" id="login-close"></i>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Slider 1.PNG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption mb-3">
+                        <h1>Penerimaan Peserta Didik Baru</h1>
+                        <p><span class="care fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet mauris ullamcorper, consectetur nisi ac, faucibus magna. Aliquam erat volutpat. Nam in viverra libero. Nunc ut semper augue. Donec in egestas massa, non blandit lacus. Pellentesque quis ornare enim. Etiam neque quam, egestas in rhoncus sit amet, tincidunt at magna. Cras non ullamcorper leo. Phasellus et facilisis massa, id feugiat justo.</p>
+                            <div><button class="btn btn-primary" type="button">Daftar</button></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Slider 2.PNG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption mb-3">
+                        <h1>Penerimaan Peserta Didik Baru</h1>
+                        <p><span class="care fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet mauris ullamcorper, consectetur nisi ac, faucibus magna. Aliquam erat volutpat. Nam in viverra libero. Nunc ut semper augue. Donec in egestas massa, non blandit lacus. Pellentesque quis ornare enim. Etiam neque quam, egestas in rhoncus sit amet, tincidunt at magna. Cras non ullamcorper leo. Phasellus et facilisis massa, id feugiat justo.</p>
+                            <div><button class="btn btn-primary" type="button">Daftar</button></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/Slider 3.PNG" class="d-block w-100" alt="...">
+                        <div class="carousel-caption mb-3">
+                            <h1>Penerimaan Peserta Didik Baru</h1>
+                            <p><span class="care fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet mauris ullamcorper, consectetur nisi ac, faucibus magna. Aliquam erat volutpat. Nam in viverra libero. Nunc ut semper augue. Donec in egestas massa, non blandit lacus. Pellentesque quis ornare enim. Etiam neque quam, egestas in rhoncus sit amet, tincidunt at magna. Cras non ullamcorper leo. Phasellus et facilisis massa, id feugiat justo.</p>
+                            <div><button class="btn btn-primary" type="button">Daftar</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Profil Sekolah -->
+        <section>
+            <div class="section-about">
+                <section id="about">
+                <h2>Profile</h2>
+                <p>Informasi tentang sejarah, visi, misi, dan nilai-nilai sekolah.</p>
+            </div>
+            <div class="cardpos">
+                <div class="cardcontainer">
+                <div class="image-container">
+                    <img src="assets/img/Profile pict.jpg">
+                </div>
+                <div class="text-container">
+                    <h2>Visi</h2>
+                    <p>Menjadikan sentra pendidikan dasar untuk menyiapkan siswa yang religius, progresif, dan berdaya saing global.</p>
+                    <h2>Misi</h2>
+                    <p>1. Menciptakan lingkungan pembelajaran yang mampu membangun individu beriman dan bertaqwa kepada Tuhan yang Maha Esa.</p>
+                    <p>2. Mengembangkan sistem pendidikan yang inovatif berbasis ICT dan project based learning untuk membangun keterampilan abad 21 pada diri peserta didik.</p>
+                    <p>3. Menciptakan suasana akademik yang kondisif untuk mengembangkan berbagai potensi peserta didik yang variatif.</p>
+                    <p>4. Membentuk peserta didik yang memiliki kecintaan terhadap budaya berlandaskan keimanan dan ketakwaan kepada Tuhan yang Maha Esa.</p>
+                    <p>5. Menciptakan suasana lingkungan berbasis green school untuk menumbuhka kepekaan peserta didik terhadap lingkungan.</p>
+                    <p>6. Menerapkan berbagai hasil riset pendidikan untuk pengembangan model layana akademik yang inovatif sebagai percontohan penyelenggaraan sekolah dasar yang unggul.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Kegiatan Sekolah -->
+        <section id="courses" class="pt-5 pb-5">
+            <div class="section-courses">
+                <h2>Kegiatan</h2>
+                <p>Kegiatan yang ditawarkan di sekolah.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="mb-3"></h3>
+                    </div>
+                    <div class="col-6 text-right">
+                        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/pramuka.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Pramuka</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/karate.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Karate</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/archery.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Archery</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+        
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/vocal_art.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Seni Vocal</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/traditional_dance_art.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Seni Tari</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/futsal.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Futsal</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/art.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Seni Rupa</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/lego.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Lego</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/angklung.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Angklung</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%" src="assets/img/robotics.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Robotics</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%" src="assets/img/bilingual.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Bilingual</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%" src="assets/img/bertanam.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Bertanam</h4>
+                                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program Sekolah -->
+        <div class="section-program">
+            <section id="program">
+                <h2>Program</h2>
+                <p>Program yang tersedia.</p>
+                <div class="card-container-program">
+                    <div class="card1program">
+                        <img src="assets/img/Konten.jpg">
+                        <div class="card-content-program">
+                            <h3>Program 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card2program">
+                        <img src="assets/img/Konten.jpg">
+                        <div class="card-content-program">
+                            <h3>Program 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card3program">
+                        <img src="assets/img/Konten.jpg">
+                        <div class="card-content-program">
+                            <h3>Program 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Prestasi Sekolah -->
+        <section id="prestasi" class="pt-5 pb-5">
+            <div class="section-prestasi">
+                <h2>Prestasi</h2>
+                <p>Prestasi yang diraih siswa-siswi</p>
+            </div>
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="mb-3"></h3>
+                    </div>
+                    <div class="col-6 text-right">
+                        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators22" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators22" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators22" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/prestasi/prestasi1-daffa-sepaturoda.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Muhammad Daffa Arshaq Alfatih</h4>
+                                                    <p class="card-text">🏆 Juara 2 - Sprint 100m Pemula U-6 Putra
+                                                        kejuaraan Sepatu Roda GWIS FRIENDLY NIGHT RACE Tahun 2023.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/prestasi/prestasi2-keira-silat.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Keira Kevindra R</h4>
+                                                    <p class="card-text">🏆 Juara 1 - Lomba Pencak Silat Kategori Tunggal Putri Usia Dini
+                                                        Kejuaraan Varis Van Java Championship tahun 2023.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/prestasi/prestasi3-irsyad-soccer.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Keenan Madeena Harimurti</h4>
+                                                    <p class="card-text">🏆 Juara 3 - English Text Reading Online Kategori 1-3
+                                                        Event "Kemerdekaan" Se-Nusantara pada tahun 2023.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/prestasi/prestasi4-keenan-english.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Ananda Irsyad Yanuar Kurniawan</h4>
+                                                    <p class="card-text">🏆 Juara 1 - Winner Soccer Plate U-11 IJL 2023
+                                                        Liga Sepak Bola yang diselenggarakan oleh Indonesia Junior League (IJL) di Tangerang Tahun 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/prestasi/prestasi5-kadiza-sains.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Kadiza Queena Reaji Putri</h4>
+                                                    <p class="card-text">🏆 Juara Harapan 2 - Olimpiade Sains Tingkat SD
+                                                        Olimpiade Sains (OSa) yang diselenggarakan oleh Fakultas Matematika dan IPA Universitas Pendidikan Indonesia tingkat Jawa Barat tahun 2023.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="assets/img/prestasi/prestasi6-archery.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Deflecta Putra Farindra dan M. Alby Argantayudha</h4>
+                                                    <p class="card-text">🏆 Juara 3 - Panahan Beregu Barebow Putra 1-3 SD
+                                                        diselenggarakan oleh Portue Bandung Championsip tingkat Jawa Barat Tahun 2023</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Fasilitas Sekolah -->
+        <div class="section-fasilitas-contact mb-3">
+            <section id="Fasilitas">
+                <h2>Fasilitas Kami</h2>
+                <p>Fasilitas yang tersedia</p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/classroom.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ruang Kelas Ber-AC</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/lapangan.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lapangan Olahraga</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/uks.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">UKS</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/labekologi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lab Ekologi</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/wifi_on_school_icon.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Wifi</h5>
+                                <p class="card-text">This is a longer card Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/complete_learning_media.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Media Pembelajaran Lengkap</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/parkir.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tempat Parkir</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/toilet.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Toilet Terpisah dan Bersih</h5>
+                                <p class="card-text">This is a longer card Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/computer_lab.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lab Komputer</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent blandit vulputate dapibus. Quisque fermentum neque et nisl eleifend, vel congue lectus placerat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Kontak Sekolah -->
+        <footer>
+            <div class="cardsection-contact text-center">
+                <section id="contact">
+                    <h2>Kontak</h2>
+                    <p>Informasi kontak sekolah.</p>
+                    <div class="row">
+                        <ul class="wrappercontact ">
+                            <li>
+                                <a class="icon email" href="mailto: sdslabupipwk@gmail.com" target="_blank">
+                                    <span class="tooltip">Email</span>
+                                    <span><i class="fa-regular fa-envelope"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon facebook" href="https://www.facebook.com/people/Labschool-Upi-Purwakarta/pfbid06C98gwBBxdD9MM3KKp4P62G6ZU6uCH6h9mgR8euyGeHhso6niqJDk6MAtqJRUhUml/" target="_blank">
+                                    <span class="tooltip">Facebook</span>
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon instagram" href="https://www.instagram.com/sdlabschoolupipwk/" target="_blank">
+                                    <span class="tooltip">Instagram</span>
+                                    <span><i class="fab fa-instagram"></i></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="icon youtube" href="https://www.youtube.com/@SDLabschoolUPIPurwakarta" target="_blank">
+                                    <span class="tooltip">Youtube</span>
+                                    <span><i class="fab fa-youtube"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-10 mt-2">
+                <p>© 2023 by Team 3 Proyek Konsultasi Sistem Telekomunikasi 5B. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+        <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+    </body>
+</html>
