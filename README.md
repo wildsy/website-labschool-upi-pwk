@@ -1,8 +1,7 @@
 # Website-Labschool-UPI
 
-70% Prototype
+85% Prototype
 
 Things to do:
-- Hover text on hero carousel
-- Admin Databases for Students Data
-- Responsiveness
+- Admin Databases for Teachers and Students Data
+- Responsiveness 70%
