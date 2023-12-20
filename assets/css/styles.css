@@ -184,7 +184,8 @@ img {
 }
 
 /* Navigation for mobile devices */
-@media screen and (max-width: 1023px) {
+/* Laptop 1024px */
+@media screen and (max-width: 1024px) {
   .nav__menu {
     position: fixed;
     top: -100%;
@@ -196,8 +197,84 @@ img {
     transition: top .4s;
   }
 
-  .carousel-caption p {
+  h1.carousel-text{
+    font-size: 1.5rem !important;
+  }
+
+  p.carousel-text {
+    font-size: 0.75rem !important;
+  }
+
+  .hrslider1{
+    width: 22rem !important;
+  }
+  .hrslider2{
+    width: 12rem !important;
+  }
+  .hrslider3{
+    width: 8rem !important;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  /* .carousel-caption p{
     display: none;
+  } */
+  
+  h1.carousel-text{
+    font-size: 1.25rem !important;
+  }
+
+  p.carousel-text{
+    font-size: 0.5rem !important;
+  }
+
+  .hrslider1{
+    width: 18rem !important;
+  }
+  .hrslider2{
+    width: 10rem !important;
+  }
+  .hrslider3{
+    width: 6rem !important;
+  }
+
+  .btn{
+    font-size: 0.5rem !important;
+  }
+}
+
+/* Mobile L */
+@media screen and (max-width: 431px) {
+  .carousel-caption p{
+    display: none !important;
+  }
+  
+  h1.carousel-text{
+    font-size: 1rem !important;
+  }
+
+  /* p.carousel-text{
+    font-size: 0.5rem !important;
+  } */
+
+  hr.b-4{
+    margin: 0 0 0.5rem !important;
+  }
+
+  .hrslider1{
+    width: 15rem !important;
+  }
+  .hrslider2{
+    width: 8rem !important;
+  }
+  .hrslider3{
+    width: 4rem !important;
+  }
+
+  .btn{
+    font-size: 0.4rem !important;
   }
 }
 
@@ -491,7 +568,6 @@ p {
 
 /* Carousel Text */
 .carousel-item h1 {
-  font-size: 2.5rem;
   color: #ffffff;
   outline: #000000;
   outline-width: 1rem;
@@ -507,6 +583,10 @@ p {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+hr{
+  margin: 0 0 1rem !important;
 }
 
 .hrslider1 {
@@ -528,8 +608,14 @@ p {
   /* size: 100px; */
 }
 
-.carousel-item p {
+p.carousel-text {
   color: #ffffff;
+  /* font-size: 1rem; */
+}
+
+h1.carousel-text {
+  color: #ffffff;
+  font-size: 2.5rem;
 }
 
 .containerslider {
@@ -616,6 +702,9 @@ p {
     /* width: 100px; */
     height: auto;
     object-fit: cover;
+}
+p.card-text{
+  color: #000000;
 }
 .card-content-program {
     padding: 16px;
